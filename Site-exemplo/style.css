@@ -1,3 +1,9 @@
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60;
+}
+
 body{
     background-color: rgb(191, 242, 242);
     color: rgb(72, 71, 69);
