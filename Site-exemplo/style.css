@@ -1,12 +1,16 @@
 h1{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60;
-}
+    font-size: 50px;
+   }
 
 body{
     background-color: rgb(191, 242, 242);
     color: rgb(72, 71, 69);
     font-family: cursive;
-    font-size: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
