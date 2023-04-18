@@ -1,3 +1,6 @@
-style{
-    background-color: aquamarine;
+body{
+    background-color: rgb(191, 242, 242);
+    color: rgb(72, 71, 69);
+    font-family: cursive;
+    font-size: 30px;
 }
