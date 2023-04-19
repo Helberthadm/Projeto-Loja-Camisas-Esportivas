@@ -31,8 +31,11 @@ footer{
     clear: both;
 }
 #cabecalho{
-    text-emphasis: none;
+    text-align: left;
 }
 p:hover{
     color:red
+}
+*{
+    margin: 0;
 }
