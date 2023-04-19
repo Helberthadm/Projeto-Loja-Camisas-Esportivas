@@ -1,0 +1,15 @@
+.destaque{
+    display: block;
+    width: 100%;
+    vertical-align: baseline;
+}
+div{
+    display: block;
+    width: calc(33%) - 16px;
+    vertical-align: top;
+    margin: 8px;
+}
+body{
+    margin: 3px;
+    padding: 3px;
+}
