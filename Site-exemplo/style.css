@@ -4,7 +4,6 @@ h1{
     font-size: 50px;
     text-align: center;
    }
-
 body{
     background-color: rgb(191, 242, 242);
     color: rgb(72, 71, 69);
@@ -22,8 +21,7 @@ footer{
 #conteudo{
     width: 50%;
     background-color: khaki;
-    float: left;
-}
+    }
 #menu_contexto{
     width: 50%;
     background-color: bisque;
@@ -31,4 +29,10 @@ footer{
 }
 #rodape{
     clear: both;
+}
+#cabecalho{
+    text-emphasis: none;
+}
+p:hover{
+    color:red
 }
