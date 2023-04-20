@@ -5,7 +5,7 @@ body{
     font-size: 20px;
     font-style: italic;
     }
-    .wrapper {
+.wrapper {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -23,20 +23,23 @@ body{
     display: block;
     margin: 0 auto;
     font-size: 100px;
-    text-align: center
-}
+    text-align: center;
+    color: darkgoldenrod;
+    }
 .aside{
     grid-area: auto;
     display: block;
     margin: auto;
+    float: left;
 }
-.box-lateral {
+.box-lateral-PESQUISA {
+    float: left;
+    padding-left: 5px;
     display: flex;
+    border: none;
+    height: 32px;
+    width: 226px;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 800px;
   }
 .footer{
     text-align: center;
