@@ -1,12 +1,19 @@
+@media (max-width: 600px) {
+    im.logo {display: block; margin: 0 auto;}
+}
+
+header{height: 150px;}
+
 h1{
+    background-color: aliceblue;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     text-align: center;
    }
 body{
-    background-color: rgb(191, 242, 242);
-    color: rgb(72, 71, 69);
+    background-color: rgb(65, 70, 70);
+    color: rgb(241, 240, 237);
     font-family: cursive;
     font-size: 20px;
     font-style: italic;
@@ -20,7 +27,7 @@ footer{
 
 #conteudo{
     width: 50%;
-    background-color: khaki;
+    background-color: rgb(107, 107, 107);
     }
 #menu_contexto{
     width: 50%;
