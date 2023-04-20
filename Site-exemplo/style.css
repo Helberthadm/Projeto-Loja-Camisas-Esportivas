@@ -1,16 +1,3 @@
-@media (max-width: 600px) {
-    im.logo {display: block; margin: 0 auto;}
-}
-
-header{height: 150px;}
-
-h1{
-    background-color: aliceblue;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    text-align: center;
-   }
 body{
     background-color: rgb(65, 70, 70);
     color: rgb(241, 240, 237);
@@ -18,34 +5,27 @@ body{
     font-size: 20px;
     font-style: italic;
     }
-ul{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-footer{
-    text-align: center;
-}
-
-#conteudo{
-    width: 50%;
-    background-color: rgb(107, 107, 107);
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: cabecalho;
+        grid-gap: 5px 0px;
+        float: right;
     }
-#menu_contexto{
-    width: 50%;
-    background-color: bisque;
-    float: left;
+.logo{
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        float: left;
+    }
+.Cabecalho{
+    display: block;
+    margin: 0 auto;
+    font-size: 100px;
+    text-align: center
 }
-#rodape{
-    clear: both;
-}
-#cabecalho{
-    text-align: left;
-}
-p:hover{
-    color:red
-}
-*{
-    margin: 0;
-}
-#apresentação{
-    text-align: center;
+.aside{
+    display: block;
+    margin: auto;
 }
