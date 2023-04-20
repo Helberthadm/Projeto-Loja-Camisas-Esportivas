@@ -26,6 +26,29 @@ body{
     text-align: center
 }
 .aside{
+    grid-area: auto;
     display: block;
     margin: auto;
+}
+.box-lateral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+.footer{
+    text-align: center;
+    align-items: center;
+}
+@media (min-width: 700px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 250px 1fr 120px;
+        grid-template-rows: auto;
+        grid-template-areas: cabecalho;
+        grid-gap: 5px 0px;
+        float: right;
+    }
 }
