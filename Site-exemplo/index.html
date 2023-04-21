@@ -2,60 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.5">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OLIGINAU Sports - Loja de Camisas Esportivas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+          crossorigin="anonymous">
 </head>
-   <body>
-    <div class="wrapaer">
-    <header>
-        <img src="Imagens/Logo Oliginau.jpg.jpeg" alt="" class="logo">
-        <h1 id="tit_1" class="Cabecalho">
-        Oliginau Sports
-        </h1>
-    </div>
+    <header><img src="Imagens/Logo Oliginau.jpg.jpeg" alt=""> 
     </header>
-<aside>
-    <div class="box-lateral">
-        <h2>Pesquisa</h2>
-        <input type="text"><button>ok</button>
-    </div>
-    <div class="box-lateral">
-        <h2>Times</h2>
-        <ul>
-        <li>Mineiros</li>
-        <li>Brasileiros</li>
-        <li>Sulamericanos</li>
-        <li>Europeus</li>
-        </ul>
-    </div>
-    <div class="box-lateral">
-        <h2>Seleções</h2>
-        <ul>
-        <li>Brasileira</li>
-        <li>Sulamericanas</li>
-        <li>Europeia</li>
-        <li>Resto do Mundo</li>
-        </ul>
-    </div>
-    <div class="box-lateral">
-        <h2>Outros Esportes</h2>
-        <ul>
-        <li>NBA</li>
-        <li>NFL</li>
-        </ul>
-    </div>
-</aside>
-</body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Oliginau Sports</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pesquisa
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-<nav class="menu-secundario">
-    <ul>
-        <li>Quem Somos</li>
-        <li>Contatos</li>
-    </ul>
-</nav>
-<footer>
-    Sua camisa está aqui...
-    <img src="Imagens/Logo Oliginau 1.jpg.jpeg" alt="" class="logo">
-</footer>
+      <div class="card-group mb-3">
+        <div class="card">
+          <img src="Imagens/esportes.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Camisas de Vários Esportes</h5>
+            <p class="card-text">Aqui você encontra camisas de futebol, basquete (Times da NBA), camisas da NFL.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagens/Camisas-de-futebol.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Como conservar sua camisa</h5>
+            <p class="card-text">Para manter seu manto sempre em bom estado, é preciso tomar algumas precauções, sendo elas no momento de lavar a camisa ou até mesmo na hora de guardar a peça sem que ela sofra qualquer tipo de dano com o tempo. É preciso se atentar às orientações na etiqueta do uniforme. Outra dica importante é o uso da escovinha macia para esfregar as partes mais sujas, evitando o tanque.
+                O sabão pode ser basicamente qualquer um, porém, evite usar a máquina de lavar roupa. Neste caso, o processo é mais rápido, no entanto o produto acaba desgastando com mais rapidez.
+                Quem tem amor ao seu time e a sua coleção não irá se importar em gastar um pouco do seu tempo lavando as camisas de maneira correta.
+                As camisas retrôs possuem detalhes em metal como ilhós, mais conhecidos como passadores de cordão. Estes detalhes normalmente enferrujam com o passar do tempo.
+                Para evitar manchas de ferrugem, aplique um pouco de suco de limão no local e deixe por um tempo de molho. Após o processo, enxague e coloque a peça para lavar.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagens/messi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Até o Messi tem sua coleção</h5>
+            <p class="card-text">Para os fanáticos, existem dois tipos de paixão: o amor pelo seu time de coração e apreço por uma coleção de camisas de futebol. Ter aquele manto raro ou uma peça de extrema exclusividade não tem preço. Apenas quem tem esse amor por camisas consegue descrever.
+                Assim como qualquer acervo, ter uma coleção de camisas de futebol não é tão simples assim. Exige muita dedicação e claro, investimento. De toda forma, quem tem este amor por camisas, não existem desafios maiores que o desejo de aumentar o seu guarda-roupa.
+                Para os iniciantes no assunto, vamos mostrar algumas dicas básicas para iniciar a sua coleção sem precisar gastar muito dinheiro para isso..</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
